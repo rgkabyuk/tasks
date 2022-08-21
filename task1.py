@@ -1,3 +1,5 @@
-# сложность O(n+m), n = len(list_1), m = len(list_2)
+from dataclasses import dataclass
+import pandas as pd
+import datetime as dt
 
-print(set(list_1).difference(list_2))
+print('Сегодня', dt.datetime.date(dt.datetime.now()))
